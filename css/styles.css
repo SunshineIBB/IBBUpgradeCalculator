@@ -1,0 +1,85 @@
+.col-0 {width: 1%}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body {
+    float: left;
+    background: black;
+    color: #fff;
+    border: 0.4rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgb(0, 255, 0), 
+                inset 0 0 1rem rgb(0, 255, 0);
+
+}
+
+#container {
+    margin: 10px;
+}
+
+[class*="col-"] {
+    float: left;
+  }
+
+#checks {
+    text-align: left;
+}
+
+h2[class*="col-"] {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+input[type="number"], input[type="text"], select{
+    margin-bottom: 30px;
+}
+
+table, th, td, tr{
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+table {
+    margin-bottom: 20px;
+}
+th[class*="col-"], td[class*="col-"], tr{
+    float:none;
+    text-align: center;
+}
+
+#purchase {
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    background: black;
+    border-radius: 5%;
+}
+
+#purchase:disabled {
+    color: rgb(121, 121, 121);
+    border: 0.15rem solid rgb(121, 121, 121);
+}
+#purchase:enabled {
+    color: #fff;
+    border: 0.15rem solid #fff;
+    box-shadow: 0 0 0.5rem rgb(0, 225, 255), 
+                inset 0 0 0.5rem rgb(0, 225, 255);
+    transition-duration: 0.4s;
+}
+
+#purchase:enabled:hover {
+    box-shadow: 0 0 0.5rem rgb(255, 0, 225), 
+                inset 0 0 0.5rem rgb(255, 0, 225);
+}
