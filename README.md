@@ -1,5 +1,8 @@
 # IBBUpgradeCalculator.github.io
 
+Version 1.2
+Minor bug fix: Incorrectly using lowercase 'o' to represent Octillion
+
 Version 1.1
 Minor bug fix: Incorrectly applying prestige effect on speed when starting level is higher than prestige levels
 Minor bug fix: Minor rounding error when calculating total Ball number cost
