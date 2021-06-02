@@ -1,5 +1,9 @@
 # IBBUpgradeCalculator.github.io
 
+Version 1.3
+Added new ball: Fire ball (Available starting at 400B)
+Added new unlock tier: 5aa
+
 Version 1.2
 Minor bug fix: Incorrectly using lowercase 'o' to represent Octillion
 
